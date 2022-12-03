@@ -4,7 +4,6 @@ import (
 	"bytes"
 	"errors"
 	"fmt"
-	"io/ioutil"
 	"net"
 	"os"
 	"reflect"
@@ -64,7 +63,7 @@ func init() {
 	RootCmd.PersistentFlags().StringVarP(&initialResolution, "resolution", "r", "", "The initial resolution to set for display connections. Defaults to auto-detect.")
 	RootCmd.PersistentFlags().StringVarP(&serverPasswordFile, "password-file", "", "", "A file to read in a server password from. One will be generated if this is omitted.")
 	RootCmd.PersistentFlags().BoolVarP(&listFeatures, "list-features", "l", false, "List the available features and exit.")
-	RootCmd.PersistentFlags().StringVarP(&displayProvider, "display", "D", display.ProviderScreenCapture, "The display provider to use for RFB connections.")
+	RootCmd.PersistentFlags().StringVarP(&displayProvider, "display", "D", display.ProviderScreenShot, "The display provider to use for RFB connections.")
 	RootCmd.PersistentFlags().BoolVarP(&websockify, "websockify", "w", false, "Start a websockify listener")
 	RootCmd.PersistentFlags().StringVarP(&websockifyHost, "websockify-host", "W", "127.0.0.1", "The host address to bind the websockify server to.")
 	RootCmd.PersistentFlags().Int32VarP(&websockifyPort, "websockify-port", "P", 8080, "The port to bind the websockify server to.")
@@ -137,7 +136,7 @@ func run(cmd *cobra.Command, args []string) error {
 
 	if authIsEnabled(authTypes, "VNCAuth") {
 		if serverPasswordFile != "" {
-			passw, err := ioutil.ReadFile(serverPasswordFile)
+			passw, err := os.ReadFile(serverPasswordFile)
 			if err != nil {
 				return err
 			}

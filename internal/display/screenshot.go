@@ -3,8 +3,8 @@ package display
 import (
 	"image"
 
+	"github.com/ghp3000/screenshot/pkg/screenshot"
 	"github.com/sirupsen/logrus"
-	"github.com/suutaku/screenshot/pkg/screenshot"
 	"golang.org/x/image/draw"
 )
 

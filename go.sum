@@ -6,6 +6,8 @@ github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/gen2brain/shm v0.0.0-20210511105953-083dbc7d9d83 h1:fRNwUddc/xxdx5kQ38X4+q/Grnqlp9zfV/ssKzSzVk0=
 github.com/gen2brain/shm v0.0.0-20210511105953-083dbc7d9d83/go.mod h1:uF6rMu/1nvu+5DpiRLwusA6xB8zlkNoGzKn8lmYONUo=
+github.com/ghp3000/screenshot v0.0.0-20221203041317-42fea0b0ca73 h1:Q6i74YjErFXu3yk1YXKSodrmliir/h7GVV7ct/h3TiE=
+github.com/ghp3000/screenshot v0.0.0-20221203041317-42fea0b0ca73/go.mod h1:mymrYrncdNreKnuHiLU6p/vA9W15e333jFQFzq6nYnE=
 github.com/go-ole/go-ole v1.2.6 h1:/Fpf6oFPoeFik9ty7siob0G6Ke8QvQEuVcuChpwXzpY=
 github.com/go-ole/go-ole v1.2.6/go.mod h1:pprOEPIfldk/42T2oK7lQ4v4JSDwmV0As9GaiUsvbm0=
 github.com/go-vgo/robotgo v1.0.0-beta5.1 h1:5Lj9cViKleLP1m8SFkwljuaOKcQ9kWSwAeE8Xw9cpvE=
@@ -48,8 +50,6 @@ github.com/stretchr/objx v0.1.0/go.mod h1:HFkY916IF+rwdDfMAkV7OtwuqBVzrE8GR6GFx+
 github.com/stretchr/testify v1.2.2/go.mod h1:a8OnRcib4nhh0OaRAV+Yts87kKdq0PP7pXfy6kDkUVs=
 github.com/stretchr/testify v1.7.0 h1:nwc3DEeHmmLAfoZucVR881uASk0Mfjw8xYJ99tb5CcY=
 github.com/stretchr/testify v1.7.0/go.mod h1:6Fq8oRcR53rry900zMqJjRRixrwX3KX962/h/Wwjteg=
-github.com/suutaku/screenshot v0.0.0-20220422154633-c49e77dbf1a9 h1:OVWxa+xIFSTPFECPjwRQmi4USV6+dZYPDCayJ+Xbg/w=
-github.com/suutaku/screenshot v0.0.0-20220422154633-c49e77dbf1a9/go.mod h1:49NYgmlcCHvXdOkngEoXIeLxMLV9MrBfl4vilpwer/E=
 github.com/tklauser/go-sysconf v0.3.9 h1:JeUVdAOWhhxVcU6Eqr/ATFHgXk/mmiItdKeJPev3vTo=
 github.com/tklauser/go-sysconf v0.3.9/go.mod h1:11DU/5sG7UexIrp/O6g35hrWzu0JxlwQ3LSFUzyeuhs=
 github.com/tklauser/numcpus v0.3.0 h1:ILuRUQBtssgnxw0XXIjKUC56fgnOrFoQQ/4+DeU2biQ=
